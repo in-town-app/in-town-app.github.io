@@ -5,6 +5,9 @@
   <link rel="icon" type="image/png" href="../img/intown-favicon.jpg" sizes="16x16">
   <link rel="stylesheet" href="https://use.typekit.net/bkg7oqd.css">
   <style>
+    * {
+      color:#FFFFFF;
+    }
     p {
       font-family: 'proxima-nova';
       font-style: regular;
@@ -15,6 +18,12 @@
       font-family: 'proxima-nova';
       font-weight: bold;
       font-size: 40px;
+    }
+
+    h2 {
+      font-family: 'proxima-nova';
+      font-weight: bold;
+      font-size: 32px;
     }
     /*
 
@@ -39,34 +48,78 @@
 
   </style>
 </head>
-  <body>
+  <body style="background-color: #202020;background-image: url('img/sky-background.jpg');">
     
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-    <div id="page">
-      <div id="header"><img src="../img/intown-logo-full-color.svg" alt="intown logo"/></div>
-      <div id="message">
-        <div><h1>In today's digital world, we are more disconnected than ever.<br/><br/> It's time to re-connect with InTown.</h1></div>
-      </div>
-      <div id="contact">
-        <div><p>Sign up for early access.</p></div>
-        <div>
-          <form>
-            <input type="email"/>
-            <input type="submit" value="SIGN UP" />
-          </form>
+    <div class="container overflow-hidden text-left">
+      <div class="row gy-5">
+        <div class="col-6">
+          <div class="p-3"><br/><br/><br/>
+          </div>
         </div>
-
       </div>
-      <div id="footer">
-        <div><img alt="intown logo"/></div>
-        <div>copyright InTown 2024. All rights reserved.</div>
+    </div>
+    <div class="container overflow-hidden text-left">
+      <div class="row gy-5">
+        <div class="col-6">
+          <div class="p-3">
+            <img src="img/InTown-logo-4c.png" alt="intown logo" style="width:128px;"/>
+          </div>
+        </div>
       </div>
     </div>
 
+    <div id="page">
+      
+      
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">.</div>
 
+          <div class="col-4" style="text-align: left;">
+            <h1>In today's digital world, we are more disconnected than ever.<br/><br/> It's time to re-connect with InTown.</h1>
+          </div>
+          <div class="col">.</div>
+
+        </div>
+      </div>
+
+      <!--div class="container text-center" style="background-color: #212121;">
+        <div class="row align-items-start">
+          <div class="col"></div>
+          <div class="col">
+            <h2>Sign up for early access.</h2>
+            
+            <form  action="mailto:ryan@in-town.app" method="GET">
+              <div>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <button type="submit" class="btn btn-primary mb-3">SIGN UP</button>
+              </div>
+            </form>
+              
+          </div>
+          <div class="col"></div>
+        </div>
+      </div-->
+      
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"></div>
+          <div class="col">
+            <div>
+              <br/><br/><br/><br/><br/>
+              <img src="img/InTown-logo-white.png" alt="intown logo" style="width: 84px;"/>
+            </div>
+            <div>&copy; InTown 2024. All rights reserved.</div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    
+    </div>
 
   </body>
 </html>
